@@ -1,0 +1,54 @@
+.search-container {
+  text-align: center;
+  margin: 20px;
+}
+
+input {
+  padding: 8px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 8px 15px;
+  margin-left: 10px;
+  background-color: #236dff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 20px;
+}
+.card-body-even{
+  color: azure;
+  background-color: rgb(7, 211, 150);
+}
+
+.card-body-odd{
+  color: rgb(7, 211, 150);
+  background-color: azure;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.auto-container{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
